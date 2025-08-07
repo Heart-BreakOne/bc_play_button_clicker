@@ -6,7 +6,7 @@
   "content_scripts": [
     {
       "matches": ["https://www.theatlantic.com/games/bracket-city/*"],
-      "js": ["script.js"],
+      "js": ["content_script.js"],
       "run_at": "document_idle"
     }
   ],
